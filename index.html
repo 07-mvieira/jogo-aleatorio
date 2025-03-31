@@ -7,12 +7,18 @@
     <title>adivinhe meu número...</title>
 </head>
 <body>
-    <input id="number-input" min="1" max="10" placeholder="insira um número" type="number">
-    <button id="input-button" onclick="guess()">adivinhe!</button>
+    <main>
+        <div>
+            <h1>insira um número de 1-10</h1>
+            <input id="number-input" min="1" max="10" placeholder="1-10" type="number">
+        </div>
+        <div>
+            <button id="input-button" onclick="guess()">adivinhe!</button>
+        </div>
 
-    <p id="res">resposta incorreta!</p>
-    <p id="guess-counter">de primeira!</p>
-
+        <p id="res">resposta incorreta!</p>
+        <p id="guess-counter">de primeira!</p>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

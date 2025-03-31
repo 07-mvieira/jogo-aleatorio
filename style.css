@@ -1,8 +1,80 @@
+@font-face {
+    font-family: "Ubuntu Mono Regular";
+    src: url(UbuntuMono-Regular.ttf);
+}
+
+*{
+    font-family: "Ubuntu Mono Regular", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d2648b;
+}
+
+main{
+    align-content: center;
+    background-color: #393a45;
+    height: 100vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    text-align: center;
+}
+
+h1{
+    color: #ffbf00;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#number-input{
+    background-color: black;
+    color: #66ff00;
+    border-radius: 7px;
+    font-size: 25px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 60px;
+}
+
+#number-input[readonly="true"]{
+    color: #0cf;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+#input-button{
+    background-color: #f5f5f5;
+    border-color: #9999b3;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+
 #res{
-    color: #ea193c;
+    color: #ff493c;
     display: none;
+    text-shadow: 0 0 3px #ff1100bd;
 }
 
 #guess-counter{
+    color: #ffbf00;
     display: none;
 }
