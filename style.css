@@ -70,11 +70,11 @@ p{
 
 #res{
     color: #ff493c;
-    display: none;
     text-shadow: 0 0 3px #ff1100bd;
+    visibility: hidden;
 }
 
 #guess-counter{
     color: #ffbf00;
-    display: none;
+    visibility: hidden;
 }

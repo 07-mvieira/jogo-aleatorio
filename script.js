@@ -13,8 +13,8 @@ function guess(){
     n = input.value;
     guesses++
 
-    res.style.display = "block";
-    guessCounter.style.display = "block";
+    res.style.visibility = "visible";
+    guessCounter.style.visibility = "visible";
 
     if ((n == random) && (guesses == 1)){
         res.innerHTML = `resposta correta!!!`;
